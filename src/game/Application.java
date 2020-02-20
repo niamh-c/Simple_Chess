@@ -36,6 +36,7 @@ public class Application {
 		    int endY = Integer.parseInt(parts[1]);
 			game.playerMove(game.getCurrentTurn(), startX, startY, endX, endY);
 		}
+		myObj.close();
 	}
 
 }
